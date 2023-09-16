@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kreator CV</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Napisz swoje CV</h1>
+  <section class="basic-information">
+    <h2>Dane podstawowe</h2>
+    <input type="text" placeholder="Wpisz swoje imię" id="firstname-input">
+    <input type="text" placeholder="Wpisz swoje nazwisko" id="lastname-input">
+    <input type="text" placeholder="Wpisz swoją miejscowość" id="city-input">
+    <input type="tel" placeholder="Wpisz swój telefon" id="phone-number-input">
+    <input type="email" placeholder="Wpisz swój email" id="email-input">
+  </section>
+  <section class="experience">
+    <h2>Doświadczenie zawodowe</h2>
+    <button>Dodaj pozycję</button>
+    <div class="exp-pos">
+      <input type="text" id="job-position" placeholder="Stanowisko">
+      <input type="text" id="company-name" placeholder="Nazwa firmy">
+      <input type="text" id="company-location" placeholder="Lokalizcja">
+      <input type="text" id="start-date" placeholder="Data rozpoczęcia">
+      <input type="text" id="end-date" placeholder="Data zakończenia">
+      
+    </div>
+  </section>
+
+
+  
+  
+  
+
+    <div class="pdf">
+      <p id="name">Radek</p>
+      <p id="phone-number">43434</p>
+      <p id="email">sdfdsf</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
