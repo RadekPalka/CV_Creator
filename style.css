@@ -1,3 +1,12 @@
+body{
+  font-family: sans-serif;
+}
+.exp-pos{
+  display: none;
+}
+.show{
+  display: block;
+}
 .container{
   width: 0;
   height: 0;

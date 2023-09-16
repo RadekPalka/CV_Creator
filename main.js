@@ -23,9 +23,9 @@
 
 // btn.addEventListener("click", createPdfDocument)
 const button = document.querySelector("button")
-
+const expWindow = document.querySelector(".exp-pos")
 const addExperience = () =>{
-  window.open()
+  expWindow.classList.add("show")
 }
 
 button.addEventListener("click", addExperience)
